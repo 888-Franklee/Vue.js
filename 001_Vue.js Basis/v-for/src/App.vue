@@ -1,5 +1,5 @@
 <script setup>
-import MyComponent from './components/webFrontend.vue'
+import MyComponent from './components/dynamicButtons.vue'
 </script>
 
 <template>
