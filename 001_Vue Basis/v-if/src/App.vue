@@ -1,5 +1,5 @@
 <script setup>
-import Mycompenet from './components/changeStatus-002.vue'
+import Mycompenet from './components/toggleLogin-002.vue'
 </script>
 
 <template>
