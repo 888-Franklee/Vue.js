@@ -1,7 +1,7 @@
 
 # Vue 3: `v-if` 徹底攻略ガイド
 
-## `v-if` とは？
+## ✅`v-if` とは？
 
 `v-if` は、Vue 3における**条件付きレンダリング**を行うためのディレクティブです。  
 条件が `true` の場合のみ、その要素またはコンポーネントがDOMに描画されます。  
@@ -9,7 +9,7 @@
 
 ---
 
-## 基本的な使い方
+## ✅基本的な使い方
 
 ```vue
 <template>
@@ -25,7 +25,7 @@ const isVisible = ref(true)
 
 ---
 
-## `v-else` と `v-else-if`
+## ✅`v-else` と `v-else-if`
 
 ### `v-else`
 
@@ -49,7 +49,7 @@ const isVisible = ref(true)
 
 ---
 
-## `v-if` と `<template>` タグの併用
+## ✅`v-if` と `<template>` タグの併用
 
 複数要素を一括で条件付きレンダリングする場合、`<template>`タグを使います。
 
@@ -66,7 +66,7 @@ const isVisible = ref(true)
 
 ---
 
-## `v-if` と `v-show` の違い
+## ✅`v-if` と `v-show` の違い
 
 | 特徴      | v-if                           | v-show                        |
 |:----------|:-------------------------------|:------------------------------|
@@ -79,7 +79,7 @@ const isVisible = ref(true)
 
 ---
 
-## 高度な話題
+## ✅高度な話題
 
 ### 1. `v-if` と `key` の使い方
 
@@ -194,7 +194,7 @@ const isVisible = ref(true) // ⭕
 
 ---
 
-# まとめ
+## ✅まとめ
 
 - `v-if`は条件に応じたDOM操作を担当。
 - 頻繁に切り替わるなら`v-show`を使う。
